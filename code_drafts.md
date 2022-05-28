@@ -23,3 +23,25 @@ markdownCodeDelimiter:
 " 124 темновато
 hi markdownCodeDelimiter ctermfg=124 ctermbg=NONE guifg=#5fafd7 guibg=NONE gui=NONE
 ```
+
+# Temporary notes
+
+Приятные темы:
+- anderson;
+- archery;
+- gruvbox;
+- meta5;
+- minimalist;
+- moon;
+- pencil;
+- terminal2;
+- solarized8_high;
+- tender;
+
+Темы, файлы который будет полезно изучить:
+- snow;
+- dark;
+- seoul256;
+- happy_hacking;
+- fogbell;
+- PaperColor;
