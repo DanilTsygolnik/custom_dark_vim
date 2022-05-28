@@ -119,8 +119,10 @@ hi markdownH6 ctermfg=217 ctermbg=NONE cterm=bold guifg=#ffafaf guibg=NONE gui=b
 "  lists
 hi markdownListMarker ctermfg=45 ctermbg=NONE cterm=bold guifg=#00d7ff guibg=NONE gui=bold
 hi markdownOrderedListMarker ctermfg=45 ctermbg=NONE cterm=bold guifg=#00d7ff guibg=NONE gui=bold
-"  other
-hi markdownCode ctermfg=74 ctermbg=NONE guifg=#5fafd7 guibg=NONE gui=NONE
+" markdown code blocks 
+hi markdownCode ctermfg=131 ctermbg=NONE guifg=#5fafd7 guibg=NONE gui=NONE
+hi markdownCodeDelimiter ctermfg=131 ctermbg=NONE guifg=#5fafd7 guibg=NONE gui=NONE
+"
 hi markdownUrl ctermfg=75 ctermbg=NONE guifg=#5fafff guibg=NONE
 
 hi markdownItalic ctermfg=253 cterm=italic gui=italic
