@@ -10,6 +10,12 @@ call plug#end()
 ```
 и запустить команду `:PlugInstall` менеджера плагинов [vim-plug]( https://github.com/junegunn/vim-plug).
 
+## Материалы по настройке цветовой схемы
+
+Узнал про цветовые группы[^vim-highlighting-groups-intro].
+
+Документация по настройке цветов[^vim-docs-syntax].
+
 ## Tips and tricks
 
 Как обновить конфигурацию Vim после изменений в файле `~/.vimrc` без перезапуска программы[^reload-vimrc-no-restart]: `:source $MYVIMRC` или `:so $MYVIMRC`.
@@ -86,3 +92,5 @@ $ ln -sv ~/.../custom-dark.vim .
 [^reload-vimrc-no-restart]: https://superuser.com/a/286987
 [^vim-folding]: https://vim.fandom.com/wiki/Folding
 [^vim-visualize-colors]: https://jordanelver.co.uk/blog/2015/05/27/working-with-vim-colorschemes/
+[^vim-highlighting-groups-intro]: https://www.sbf5.com/~cduan/technical/vi/vi-4.shtml
+[^vim-docs-syntax]: http://vimdoc.sourceforge.net/htmldoc/syntax.html
