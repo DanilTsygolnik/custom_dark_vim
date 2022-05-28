@@ -1,4 +1,14 @@
-[Таблица](https://vim.fandom.com/wiki/Xterm256_color_names_for_console_Vim) cterm-кодов и HEX/RGB цветов.
+## Таблица cterm цветов
+
+Для быстрого доступа к кодам удобно использовать плагин, который написанный по [таблице](https://vim.fandom.com/wiki/Xterm256_color_names_for_console_Vim).
+
+Для установки нужно добавить следующие строки в файл `~/.vimrc`:
+```
+call plug#begin()
+Plug 'https://github.com/guns/xterm-color-table.vim'
+call plug#end()
+```
+и запустить команду `:PlugInstall` менеджера плагинов [vim-plug]( https://github.com/junegunn/vim-plug).
 
 Измененные цвета:
 ```
